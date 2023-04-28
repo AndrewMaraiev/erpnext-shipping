@@ -11,6 +11,7 @@ from frappe.model.document import Document
 from frappe.utils.password import get_decrypted_password
 from erpnext_shipping.erpnext_shipping.utils import show_error_alert
 
+
 PACKLINK_PROVIDER = 'Packlink'
 
 class Packlink(Document): pass
